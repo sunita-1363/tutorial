@@ -1,0 +1,3 @@
+C:/sunita/dev/tutorial/Step1/build/CMakeFiles/Tutorial.dir
+C:/sunita/dev/tutorial/Step1/build/CMakeFiles/edit_cache.dir
+C:/sunita/dev/tutorial/Step1/build/CMakeFiles/rebuild_cache.dir

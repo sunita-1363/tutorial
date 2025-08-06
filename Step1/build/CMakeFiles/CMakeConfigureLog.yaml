@@ -5,14 +5,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "find-v1"
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -63,7 +63,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER"
     description: "C compiler"
@@ -122,7 +122,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -158,7 +158,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: C:/sunita/TDM-GCC-64/bin/gcc.exe 
@@ -179,7 +179,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -226,7 +226,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -273,7 +273,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -320,7 +320,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -367,7 +367,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -414,7 +414,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -461,7 +461,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -508,7 +508,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -555,7 +555,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -602,7 +602,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -649,7 +649,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -728,7 +728,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -877,7 +877,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1026,7 +1026,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER"
     description: "CXX compiler"
@@ -1071,7 +1071,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1107,7 +1107,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: C:/sunita/TDM-GCC-64/bin/c++.exe 
@@ -1128,7 +1128,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1277,7 +1277,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1428,7 +1428,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -1464,9 +1464,9 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/sbin/"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/"
-      - "C:/Program Files (x86)/Project/bin/"
-      - "C:/Program Files (x86)/Project/sbin/"
-      - "C:/Program Files (x86)/Project/"
+      - "C:/Program Files (x86)/Tutorial/bin/"
+      - "C:/Program Files (x86)/Tutorial/sbin/"
+      - "C:/Program Files (x86)/Tutorial/"
     searched_directories:
       - "C:/sunita/TDM-GCC-64/bin/windres.com"
     found: "C:/sunita/TDM-GCC-64/bin/windres.exe"
@@ -1483,37 +1483,38 @@ events:
         - "C:\\sunita\\dev\\sunita\\AppData\\Roaming"
         - "C:\\sunita\\node-v22.18.0-win-x64"
         - "C:\\sunita\\uv-x86_64-pc-windows-msvc"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Tutorial"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64"
-        - "C:/Program Files (x86)/Project"
+        - "C:/Program Files (x86)/Tutorial"
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-c1p9ye"
-      binary: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-c1p9ye"
+      source: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-amsbul"
+      binary: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-amsbul"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-c1p9ye'
+        Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-amsbul'
         
-        Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_d307e/fast
-        C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d307e.dir\\build.make CMakeFiles/cmTC_d307e.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-c1p9ye'
-        Building C object CMakeFiles/cmTC_d307e.dir/CMakeCCompilerABI.c.obj
-        C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_0d085/fast
+        C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0d085.dir\\build.make CMakeFiles/cmTC_0d085.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-amsbul'
+        Building C object CMakeFiles/cmTC_0d085.dir/CMakeCCompilerABI.c.obj
+        C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -1521,8 +1522,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 10.3.0 (tdm64-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccJPkB1f.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccTAJvWH.s
         GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
         
@@ -1543,14 +1544,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-         C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccJPkB1f.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccTAJvWH.s
         GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
         COMPILER_PATH=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../libexec/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-        Linking C executable cmTC_d307e.exe
-        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d307e.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_0d085.exe
+        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_0d085.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
@@ -1561,16 +1562,16 @@ events:
         gcc version 10.3.0 (tdm64-1) 
         COMPILER_PATH=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../libexec/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d307e.exe' '-mtune=generic' '-march=x86-64'
-         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccIGLFqu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_d307e.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d307e.dir/objects.a --no-whole-archive --out-implib libcmTC_d307e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d085.exe' '-mtune=generic' '-march=x86-64'
+         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccFNmYu8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_0d085.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0d085.dir/objects.a --no-whole-archive --out-implib libcmTC_0d085.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
         collect2 version 10.3.0
-        C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccIGLFqu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_d307e.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d307e.dir/objects.a --no-whole-archive --out-implib libcmTC_d307e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccFNmYu8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_0d085.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0d085.dir/objects.a --no-whole-archive --out-implib libcmTC_0d085.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
         GNU ld (GNU Binutils) 2.36.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d307e.exe' '-mtune=generic' '-march=x86-64'
-        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d307e.dir/objects.a
-        C:\\sunita\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_d307e.dir/objects.a @CMakeFiles\\cmTC_d307e.dir\\objects1.rsp
-        C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d307e.dir/objects.a -Wl,--no-whole-archive -o cmTC_d307e.exe -Wl,--out-implib,libcmTC_d307e.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make.exe[1]: Leaving directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-c1p9ye'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d085.exe' '-mtune=generic' '-march=x86-64'
+        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_0d085.dir/objects.a
+        C:\\sunita\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_0d085.dir/objects.a @CMakeFiles\\cmTC_0d085.dir\\objects1.rsp
+        C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_0d085.dir/objects.a -Wl,--no-whole-archive -o cmTC_0d085.exe -Wl,--out-implib,libcmTC_0d085.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-amsbul'
         
       exitCode: 0
   -
@@ -1578,7 +1579,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -1600,18 +1601,18 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-c1p9ye']
+        ignore line: [Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-amsbul']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_d307e/fast]
-        ignore line: [C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d307e.dir\\build.make CMakeFiles/cmTC_d307e.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-c1p9ye']
-        ignore line: [Building C object CMakeFiles/cmTC_d307e.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_0d085/fast]
+        ignore line: [C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0d085.dir\\build.make CMakeFiles/cmTC_0d085.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-amsbul']
+        ignore line: [Building C object CMakeFiles/cmTC_0d085.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1619,8 +1620,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 10.3.0 (tdm64-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccJPkB1f.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccTAJvWH.s]
         ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
         ignore line: []
@@ -1641,8 +1642,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccJPkB1f.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccTAJvWH.s]
         ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
         ignore line: [COMPILER_PATH=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../libexec/gcc/]
@@ -1653,9 +1654,9 @@ events:
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d307e.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking C executable cmTC_d307e.exe]
-        ignore line: [C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d307e.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0d085.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_0d085.exe]
+        ignore line: [C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_0d085.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
@@ -1673,13 +1674,13 @@ events:
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d307e.exe' '-mtune=generic' '-march=x86-64']
-        link line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccIGLFqu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_d307e.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d307e.dir/objects.a --no-whole-archive --out-implib libcmTC_d307e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d085.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccFNmYu8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_0d085.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0d085.dir/objects.a --no-whole-archive --out-implib libcmTC_0d085.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
           arg [C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccIGLFqu.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccFNmYu8.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -1709,7 +1710,7 @@ events:
           arg [--undefined=__xl_f] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d307e.exe] ==> ignore
+          arg [cmTC_0d085.exe] ==> ignore
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
           arg [-LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
@@ -1720,10 +1721,10 @@ events:
           arg [-LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_d307e.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_0d085.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d307e.dll.a] ==> ignore
+          arg [libcmTC_0d085.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1754,7 +1755,7 @@ events:
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
         ignore line: [collect2 version 10.3.0]
-        ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccIGLFqu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_d307e.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d307e.dir/objects.a --no-whole-archive --out-implib libcmTC_d307e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccFNmYu8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_0d085.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0d085.dir/objects.a --no-whole-archive --out-implib libcmTC_0d085.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
         linker tool for 'C': C:/sunita/TDM-GCC-64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -1780,7 +1781,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Running the C compiler's linker: "C:/sunita/TDM-GCC-64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.36.1
@@ -1789,27 +1790,28 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-mj3n0v"
-      binary: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-mj3n0v"
+      source: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-qqn0sk"
+      binary: "C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-qqn0sk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-mj3n0v'
+        Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-qqn0sk'
         
-        Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_9fe2f/fast
-        C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9fe2f.dir\\build.make CMakeFiles/cmTC_9fe2f.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-mj3n0v'
-        Building CXX object CMakeFiles/cmTC_9fe2f.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\sunita\\TDM-GCC-64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_b8ee8/fast
+        C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b8ee8.dir\\build.make CMakeFiles/cmTC_b8ee8.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-qqn0sk'
+        Building CXX object CMakeFiles/cmTC_b8ee8.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\sunita\\TDM-GCC-64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -1817,8 +1819,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 10.3.0 (tdm64-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccZWuP0q.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccC1EsZR.s
         GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
         
@@ -1845,14 +1847,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-         C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccZWuP0q.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccC1EsZR.s
         GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
         COMPILER_PATH=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../libexec/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_9fe2f.exe
-        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9fe2f.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_b8ee8.exe
+        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b8ee8.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
@@ -1863,16 +1865,16 @@ events:
         gcc version 10.3.0 (tdm64-1) 
         COMPILER_PATH=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../libexec/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fe2f.exe' '-mtune=generic' '-march=x86-64'
-         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccfLvnMH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_9fe2f.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9fe2f.dir/objects.a --no-whole-archive --out-implib libcmTC_9fe2f.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8ee8.exe' '-mtune=generic' '-march=x86-64'
+         C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccYc4bR5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_b8ee8.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b8ee8.dir/objects.a --no-whole-archive --out-implib libcmTC_b8ee8.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
         collect2 version 10.3.0
-        C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccfLvnMH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_9fe2f.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9fe2f.dir/objects.a --no-whole-archive --out-implib libcmTC_9fe2f.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccYc4bR5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_b8ee8.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b8ee8.dir/objects.a --no-whole-archive --out-implib libcmTC_b8ee8.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
         GNU ld (GNU Binutils) 2.36.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fe2f.exe' '-mtune=generic' '-march=x86-64'
-        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9fe2f.dir/objects.a
-        C:\\sunita\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_9fe2f.dir/objects.a @CMakeFiles\\cmTC_9fe2f.dir\\objects1.rsp
-        C:\\sunita\\TDM-GCC-64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_9fe2f.dir/objects.a -Wl,--no-whole-archive -o cmTC_9fe2f.exe -Wl,--out-implib,libcmTC_9fe2f.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make.exe[1]: Leaving directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-mj3n0v'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8ee8.exe' '-mtune=generic' '-march=x86-64'
+        C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_b8ee8.dir/objects.a
+        C:\\sunita\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_b8ee8.dir/objects.a @CMakeFiles\\cmTC_b8ee8.dir\\objects1.rsp
+        C:\\sunita\\TDM-GCC-64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_b8ee8.dir/objects.a -Wl,--no-whole-archive -o cmTC_b8ee8.exe -Wl,--out-implib,libcmTC_b8ee8.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-qqn0sk'
         
       exitCode: 0
   -
@@ -1880,7 +1882,7 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -1909,7 +1911,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake:326 (find_library)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:251 (cmake_parse_implicit_link_info2)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "library"
     variable: "CMAKE_CXX_IMPLICIT_LINK_LIBRARY_stdc++"
     description: "Path to a library."
@@ -1942,14 +1944,14 @@ events:
         - "C:\\sunita\\dev\\sunita\\AppData\\Roaming"
         - "C:\\sunita\\node-v22.18.0-win-x64"
         - "C:\\sunita\\uv-x86_64-pc-windows-msvc"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Tutorial"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64"
-        - "C:/Program Files (x86)/Project"
+        - "C:/Program Files (x86)/Tutorial"
       CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/Project/bin"
+        - "C:/Program Files (x86)/Tutorial/bin"
         - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin"
         - "/bin"
   -
@@ -1957,18 +1959,18 @@ events:
     backtrace:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-mj3n0v']
+        ignore line: [Change Dir: 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-qqn0sk']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_9fe2f/fast]
-        ignore line: [C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9fe2f.dir\\build.make CMakeFiles/cmTC_9fe2f.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-mj3n0v']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9fe2f.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\sunita\\TDM-GCC-64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/sunita/cmake-4.1.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/sunita/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_b8ee8/fast]
+        ignore line: [C:/sunita/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b8ee8.dir\\build.make CMakeFiles/cmTC_b8ee8.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/sunita/dev/tutorial/Step1/build/CMakeFiles/CMakeScratch/TryCompile-qqn0sk']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b8ee8.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\sunita\\TDM-GCC-64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1976,8 +1978,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 10.3.0 (tdm64-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccZWuP0q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccC1EsZR.s]
         ignore line: [GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
         ignore line: []
@@ -2004,8 +2006,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccZWuP0q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccC1EsZR.s]
         ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
         ignore line: [COMPILER_PATH=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../libexec/gcc/]
@@ -2016,9 +2018,9 @@ events:
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9fe2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_9fe2f.exe]
-        ignore line: [C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9fe2f.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b8ee8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_b8ee8.exe]
+        ignore line: [C:\\sunita\\cmake-4.1.0-rc4-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b8ee8.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\sunita\\TDM-GCC-64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
@@ -2036,13 +2038,13 @@ events:
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fe2f.exe' '-mtune=generic' '-march=x86-64']
-        link line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccfLvnMH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_9fe2f.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9fe2f.dir/objects.a --no-whole-archive --out-implib libcmTC_9fe2f.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8ee8.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccYc4bR5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_b8ee8.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b8ee8.dir/objects.a --no-whole-archive --out-implib libcmTC_b8ee8.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
           arg [C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccfLvnMH.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccYc4bR5.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -2072,7 +2074,7 @@ events:
           arg [--undefined=__xl_f] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_9fe2f.exe] ==> ignore
+          arg [cmTC_b8ee8.exe] ==> ignore
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
           arg [-LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
@@ -2083,10 +2085,10 @@ events:
           arg [-LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_9fe2f.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_b8ee8.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_9fe2f.dll.a] ==> ignore
+          arg [libcmTC_b8ee8.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2120,7 +2122,7 @@ events:
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
           arg [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> obj [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
         ignore line: [collect2 version 10.3.0]
-        ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccfLvnMH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_9fe2f.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9fe2f.dir/objects.a --no-whole-archive --out-implib libcmTC_9fe2f.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/sunita/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\sunita\\dev\\sunita\\AppData\\Local\\Temp\\ccYc4bR5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_b8ee8.exe C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/sunita/TDM-GCC-64/bin/../lib/gcc -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b8ee8.dir/objects.a --no-whole-archive --out-implib libcmTC_b8ee8.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/sunita/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
         linker tool for 'CXX': C:/sunita/TDM-GCC-64/x86_64-w64-mingw32/bin/ld.exe
         search lib [SEARCH_STATIC:stdc++] ==> [C:/sunita/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/libstdc++.a]
         remove lib [msvcrt]
@@ -2147,7 +2149,7 @@ events:
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/sunita/cmake-4.1.0-rc4-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Running the CXX compiler's linker: "C:/sunita/TDM-GCC-64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.36.1

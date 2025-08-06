@@ -132,4 +132,5 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
  C:/sunita/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_ios.tcc \
  C:/sunita/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ostream.tcc \
  C:/sunita/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream \
- C:/sunita/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/istream.tcc
+ C:/sunita/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/istream.tcc \
+ C:/sunita/dev/tutorial/Step1/build/TutorialConfig.h

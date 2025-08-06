@@ -1,2 +1,0 @@
-C:\sunita\TDM-GCC-64\bin\ar.exe qc libSqrtLibrary.a CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.obj
-C:\sunita\TDM-GCC-64\bin\ranlib.exe libSqrtLibrary.a

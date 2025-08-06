@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/sunita/dev/tutorial/Step3/build/cmake_install.cmake",
-		"C:/sunita/dev/tutorial/Step3/build/MathFunctions/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

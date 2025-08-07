@@ -9,7 +9,9 @@ if (USE_MYMATH)
   add_library(SqrtLibrary STATIC
               mysqrt.cxx
               )
-
+  
+  target_include_directories(SqrtLibrary PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
+  
   # link SqrtLibrary to tutorial_compiler_flags
   target_link_libraries(SqrtLibrary PUBLIC tutorial_compiler_flags)
 

@@ -9,6 +9,7 @@
 
 namespace mathfunctions {
 double sqrt(double x)
+// double DECLSPEC sqrt(double x)
 {
 // which square root function should we use?
 #ifdef USE_MYMATH
